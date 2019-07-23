@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="48215" started-at="2019-07-23T11:40:12Z" finished-at="2019-07-23T11:41:00Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="48215" started-at="2019-07-23T11:40:12Z" finished-at="2019-07-23T11:41:00Z">
+      <class name="chatBot.AutoMate.AppTest">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.reflect.Method)[pri:0, instance:chatBot.AutoMate.AppTest@56ef9176]" name="setup" is-config="true" duration-ms="24033" started-at="2019-07-23T17:10:12Z" finished-at="2019-07-23T17:10:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void chatBot.AutoMate.AppTest.shouldAnswerWithTrue() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="shouldAnswerWithTrue()[pri:0, instance:chatBot.AutoMate.AppTest@56ef9176]" name="shouldAnswerWithTrue" duration-ms="22043" started-at="2019-07-23T17:10:36Z" finished-at="2019-07-23T17:10:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldAnswerWithTrue -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:chatBot.AutoMate.AppTest@56ef9176]" name="tearDown" is-config="true" duration-ms="2114" started-at="2019-07-23T17:10:58Z" finished-at="2019-07-23T17:11:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=shouldAnswerWithTrue status=SUCCESS method=AppTest.shouldAnswerWithTrue()[pri:0, instance:chatBot.AutoMate.AppTest@56ef9176] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- chatBot.AutoMate.AppTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
